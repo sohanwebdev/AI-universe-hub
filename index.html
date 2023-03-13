@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-universe-hub</title>
+    <!-- icons link start -->
+    <link rel="stylesheet" href="./css/boxicons.min.css">
+    <!-- icons link end -->
+    <!-- css bootstrap start -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- css bootstrap end -->
+    <!-- css file link start -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- css file link end -->
+</head>
+<body>
+    
+    <!--=====================
+        header section start
+    =======================-->
+    <header>
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-12">
+                    <!-- heading title start -->
+                    <h1 class="mt-3">AI Universe Hub</h1>
+                    <!-- heading title end -->
+                    <!-- sorting button start -->
+                    <button id="shortingDate" class="btn btn-danger my-4">Sort By Data</button>
+                    <!-- sorting button end -->
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--====================
+        header section end
+    =======================-->
+
+    <!--====================
+        main section start
+    ======================-->
+    <main>
+        <!-- spinner section start -->
+        <section id="loaderSection" class="d-none">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="text-center">
+                        <div class="spinner-border text-success" style="width: 3rem; height: 3rem;" role="status">
+                            <span class="visually-hidden"></span>
+                          </div>
+                      </div>
+                </div>
+            </div>
+        </section>        
+        <!-- spinner section end -->
+        <!-- cardSection start -->
+        <section id="cardMainSection">
+            <div class="container py-5">
+                <!-- cardSection start -->
+                <div id="cardSection" class="row g-4 justify-content-center align-items-center">
+                    <!-- card items start -->
+                    <!-- card items end -->
+                </div>
+                <!-- cardSection start -->
+                <!-- seeMore section start -->
+                <div class="row justify-content-center text-center">
+                    <div id="seeMore" class="col-12 d-none">
+                        <!-- see More button start -->
+                        <div id="showAllDataBtn" class="btn btn-danger my-5">See More</div>
+                        <!-- see More button end -->
+                    </div>
+                </div>
+                <!-- seeMore section end -->
+            </div>
+        </section>
+        <!-- cardSection start -->
+        
+        <!-- modal section start -->
+        <section id="modalSection">
+            <div class="modal fade" id="clickModal" tabindex="-1" aria-labelledby="clickModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <!-- modal close button start -->
+                        <i style="position: relative; top: -15px; right: -15px; background-color: red; padding: 10px; border-radius: 50%;" class="bx bx-x btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close"></i>
+                        <!-- modal close button end -->
+                        <!-- modal body section start -->
+                        <div class="modal-body">
+                            <div id="modalView" class="row justify-content-center align-items-center g-4">
+                                <!-- modal details here -->
+                            </div>
+                        </div>
+                        <!-- modal body section end -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- modal section end -->
+
+    </main>
+    <!--====================
+        main section end
+    ======================-->
+
+    
+
+    <!-- js bootstrap start -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- js bootstrap end -->
+    <!-- js file link start -->
+    <script src="./js/app.js"></script>
+    <!-- js file link end -->
+</body>
+</html>
